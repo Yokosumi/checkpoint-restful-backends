@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-right: 5%;
+  padding-left: 2%;
+  max-width: 100%;
+}
+
+.wrapper-style {
+  outline: 1px solid gray;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.manage {
+  margin-left: auto;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 180px;
+  height: auto;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  outline: 1px solid gray;
+  border-radius: 5%;
+  background-size: 100% 35%;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+}
+
+.see-all {
+  position: absolute;
+  right: 5%;
+}
+
+#picture {
+  border-radius: 50%;
+  padding-top: 0.8rem;
+}
+
+.name-style {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.test {
+  border: 2px solid red;
+}
